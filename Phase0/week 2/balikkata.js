@@ -2,7 +2,7 @@ function balikKata(kata) {
 
 var hasil = ""
     for(i = kata.length - 1; i >= 0; i--) {
-    hasil = hasil + kata[i]
+        hasil = hasil + kata[i]
     }
     return hasil;
 }

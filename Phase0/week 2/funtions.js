@@ -1,21 +1,21 @@
 //Tugas 1
 
-// function shoutOut(){
-//     console.log("Halo Funtion!")
-// }
-// shoutOut();
+function shoutOut(){
+    console.log("Halo Funtion!")
+}
+shoutOut();
 
 //Tugas 2
 
-// var num1 = 5;
-// var num2 = 6;
+var num1 = 5;
+var num2 = 6;
 
-// function calculateMultiply(num1, num2){
-//     return num1 * num2
-// }
+function calculateMultiply(num1, num2){
+    return num1 * num2
+}
 
-// var result = calculateMultiply(num1,num2);
-// console.log(result)
+var result = calculateMultiply(num1,num2);
+console.log(result)
 
 //Tugas 3
 

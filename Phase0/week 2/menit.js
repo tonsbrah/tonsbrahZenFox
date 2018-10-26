@@ -1,5 +1,12 @@
 function konversiMenit(menit) {
 
+var resultDetik = menit % 60;
+var resultMenit = menit - resultDetik;
+var resultJam = resultMenit / 60;
+if(resultDetik < 10){
+    resultDetik = "0" + resultDetik
+}
+return resultJam + ":" + resultDetik;
 
 }
   
