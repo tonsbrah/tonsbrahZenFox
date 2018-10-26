@@ -1,0 +1,105 @@
+Algorithm (ΣF = m x a)
+-------------------
+
+1. Simpan "massa" dengan nilai 600
+2. Simpan "percepatan" dengan nilai 2
+3. Hitung "resultan" dengan nilai apapun. Ini akan di isi nanti
+4. Setelah mendapatkan hasil perhitungan, isikan hasilnya ke dalam "resultan"
+5. Tampilkan nilai dari "resultan"
+
+Pseudocode (ΣF = m x a)
+--------------------
+
+STORE "massa" with 600
+STORE "percepatan" with 2
+CALCULATE "600" with "2"
+
+SET "resultan" value with 1200
+
+DISPLAY "resultan"
+
+
+
+*********************
+
+
+Algorithm (Tahun Kabisat)
+---------------------
+
+1. Simpan nilai "Kabisat" dengan anka 0
+2. Jika tahun habis di bagi 4
+3. maka tahun tersebut merupakan tahun Kabisat
+4. jika tahun habis di bagi 100
+5. maka tahun tersebut bukan tahun Kabisat
+6. Jika tahun habis di bagi 400
+7. maka tahun tersebut merupakan tahun Kabisat
+
+Pseudocode
+-----------------------
+
+STORE "Kabisat" to 0
+
+CALCULATE "tahun" mod 4
+    IF "tahun" equals to 0
+    DISPLAY "Kabisat"
+ELSE
+CALCULATE "tahun" mod 100
+    IF "tahun" equals to 0
+    DISPLAY "bukan Kabisat"
+CALCULATE "tahun" mod 400
+   IF "tahun" equals to 0
+   DISPLAY "Kabisat" 
+
+
+***********************
+
+
+Algorithm (Laundry Day)
+-----------------------
+
+1. Simpan nilai "isi laundry" with 0
+2. Ulangi step 3 selama "isi laundry" di bawah 20. jika "isi laundry" sudah 20, lanjut step 4
+3. tambah "isi laundry" dengan 1, agar mendekati batas loop, kembali ke step 2
+4. Tampilkan "laundry ready", berarti laundry sudah siap di cuci
+
+Pseudocode
+------------------------
+
+WHILE "laundry day"
+    DO "laundry"
+
+STORE "isi laundry"
+
+WHILE "isi laundry"
+    ADD "isi laundry"
+
+DISPLAY "start laundry"
+
+
+************************
+
+
+Algorithm (Periksa Kuku)
+------------------------
+
+1. Simpan nilai "jumlah siswa" dengan angka 20
+2. Simpan nilai "kuku pendek" dengan angka 1
+3. Simpan nilai "kuku panjang" dengan angka 0
+4. Ulangi step 3 sampai nilai "siswa" habis
+5. Jika menemukan "siswa" berkuku panjang lakukan "hukum"
+6. Jika menumukan "siswa" berkuku pendek lakukan "reward"
+
+Pseudocode
+------------------------
+
+STORE "jumlah siswa" to 20
+STORE "kuku panjang" to 0
+STORE "kuku pendek" to 1
+
+WHILE "siswa" min 1
+IF "siswa" equals to 1
+    DO "reward"
+IF "siswa" equals to 0
+    DO "hukum"  
+
+
